@@ -44,7 +44,7 @@ void loop()
   delay(5);
   VAL3 = analogRead(POT3);
   VAL3 = map(VAL3, 0, 1023, 0, 180);
-  Servo3.write(VAL2);
+  Servo3.write(VAL3);
   delay(5);
   VAL4 = analogRead(POT4);
   VAL4 = map(VAL4, 0, 1023, 0, 180);
